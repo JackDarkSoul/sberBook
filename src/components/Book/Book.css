@@ -1,0 +1,61 @@
+.item__wrapper {
+    display: flex;
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    margin: 20px;
+    position: relative;
+}
+
+.description__wrapper {
+    margin-left: 10px;
+}
+
+.description__item {
+    color: grey;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.description__item:last-child {
+    margin-bottom: 10px;
+}
+
+.description__item .description__title {
+    color: black;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.img {
+    width: 128px;
+    height: 100%;
+}
+
+.delete__button {
+    position: absolute;
+    font-size: 35px;
+    color: red;
+    top: -5px;
+    right: 6px;
+}
+
+.input-text {
+    display: block;
+    width: 330px;
+    color: grey;
+    margin-top: 3px;
+}
+
+.text {
+    width: 100%;
+    color: grey;
+    margin-top: 3px;
+}
+
+.hidden__button {
+    display: none;
+}
